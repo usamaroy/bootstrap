@@ -1,35 +1,28 @@
 <?php
-include_once"header/header.php";
+include dirname(__FILE__) . '/header.php';
 ?>
 
-<div class="jumbotron text-center">
-  <h1>My First Bootstrap Page</h1>
-  <p>Resize this responsive page to see the effect!</p> 
-</div>
-  
-<div class="container">
-  <div class="row">
-    <div class="col-sm-4">
-      <h3>Column 1</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-    </div>
-    <div class="col-sm-4">
-      <h3>Column 2</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-    </div>
-    <div class="col-sm-4">
-      <h3>Column 3</h3>        
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-    </div>
+<div class="panel panel-default">
+  <div class="panel-body">
+  <form>
+  <div class="form-group">
+    <label for="inputsm">Small input</label>
+    <input class="form-control input-sm" id="inputsm" type="text">
+  </div>
+   <div class="form-group">
+    <label for="inputdefault">Default input</label>
+    <input class="form-control" id="inputdefault" type="text">
+  </div>
+  <div class="form-group">
+    <label for="inputlg">Large input</label>
+    <input class="form-control input-lg" id="inputlg" type="text">
+  </div>
+</form> 
   </div>
 </div>
 
 
 
-
 <?php
-include_once"header/footer.php";
+include dirname(__FILE__) . '/footer.php';
 ?>
