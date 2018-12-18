@@ -49,7 +49,7 @@ include dirname(__FILE__) . '/header.php';
     <div class="form-group">        
       <div class="col-sm-offset-2 col-sm-10">
         <div class="checkbox">
-          <label><input type="checkbox" name="remember"> Remember me</label>
+          <label><input type="checkbox" name="remember"> Remember dme</label>
         </div>
       </div>
     </div>
